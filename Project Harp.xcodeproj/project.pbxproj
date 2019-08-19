@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9644590230B6262009768F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B964458F230B6262009768F4 /* AppDelegate.swift */; };
+		B9644592230B6262009768F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9644591230B6262009768F4 /* ViewController.swift */; };
+		B9644595230B6262009768F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9644593230B6262009768F4 /* Main.storyboard */; };
+		B9644598230B6262009768F4 /* Project_Harp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9644596230B6262009768F4 /* Project_Harp.xcdatamodeld */; };
+		B964459A230B6268009768F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9644599230B6268009768F4 /* Assets.xcassets */; };
+		B964459D230B6268009768F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B964459B230B6268009768F4 /* LaunchScreen.storyboard */; };
+		B96445A8230B6268009768F4 /* Project_HarpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96445A7230B6268009768F4 /* Project_HarpTests.swift */; };
+		B96445B3230B6268009768F4 /* Project_HarpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96445B2230B6268009768F4 /* Project_HarpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B96445A4230B6268009768F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9644584230B6262009768F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B964458B230B6262009768F4;
+			remoteInfo = "Project Harp";
+		};
+		B96445AF230B6268009768F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9644584230B6262009768F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B964458B230B6262009768F4;
+			remoteInfo = "Project Harp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B964458C230B6262009768F4 /* Project Harp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Harp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B964458F230B6262009768F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9644591230B6262009768F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9644594230B6262009768F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9644597230B6262009768F4 /* Project_Harp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project_Harp.xcdatamodel; sourceTree = "<group>"; };
+		B9644599230B6268009768F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B964459C230B6268009768F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B964459E230B6268009768F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96445A3230B6268009768F4 /* Project HarpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project HarpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96445A7230B6268009768F4 /* Project_HarpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_HarpTests.swift; sourceTree = "<group>"; };
+		B96445A9230B6268009768F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96445AE230B6268009768F4 /* Project HarpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project HarpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96445B2230B6268009768F4 /* Project_HarpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_HarpUITests.swift; sourceTree = "<group>"; };
+		B96445B4230B6268009768F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9644589230B6262009768F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96445A0230B6268009768F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96445AB230B6268009768F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9644583230B6262009768F4 = {
+			isa = PBXGroup;
+			children = (
+				B964458E230B6262009768F4 /* Project Harp */,
+				B96445A6230B6268009768F4 /* Project HarpTests */,
+				B96445B1230B6268009768F4 /* Project HarpUITests */,
+				B964458D230B6262009768F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B964458D230B6262009768F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B964458C230B6262009768F4 /* Project Harp.app */,
+				B96445A3230B6268009768F4 /* Project HarpTests.xctest */,
+				B96445AE230B6268009768F4 /* Project HarpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B964458E230B6262009768F4 /* Project Harp */ = {
+			isa = PBXGroup;
+			children = (
+				B964458F230B6262009768F4 /* AppDelegate.swift */,
+				B9644591230B6262009768F4 /* ViewController.swift */,
+				B9644593230B6262009768F4 /* Main.storyboard */,
+				B9644599230B6268009768F4 /* Assets.xcassets */,
+				B964459B230B6268009768F4 /* LaunchScreen.storyboard */,
+				B964459E230B6268009768F4 /* Info.plist */,
+				B9644596230B6262009768F4 /* Project_Harp.xcdatamodeld */,
+			);
+			path = "Project Harp";
+			sourceTree = "<group>";
+		};
+		B96445A6230B6268009768F4 /* Project HarpTests */ = {
+			isa = PBXGroup;
+			children = (
+				B96445A7230B6268009768F4 /* Project_HarpTests.swift */,
+				B96445A9230B6268009768F4 /* Info.plist */,
+			);
+			path = "Project HarpTests";
+			sourceTree = "<group>";
+		};
+		B96445B1230B6268009768F4 /* Project HarpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B96445B2230B6268009768F4 /* Project_HarpUITests.swift */,
+				B96445B4230B6268009768F4 /* Info.plist */,
+			);
+			path = "Project HarpUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B964458B230B6262009768F4 /* Project Harp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96445B7230B6268009768F4 /* Build configuration list for PBXNativeTarget "Project Harp" */;
+			buildPhases = (
+				B9644588230B6262009768F4 /* Sources */,
+				B9644589230B6262009768F4 /* Frameworks */,
+				B964458A230B6262009768F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project Harp";
+			productName = "Project Harp";
+			productReference = B964458C230B6262009768F4 /* Project Harp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B96445A2230B6268009768F4 /* Project HarpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96445BA230B6268009768F4 /* Build configuration list for PBXNativeTarget "Project HarpTests" */;
+			buildPhases = (
+				B964459F230B6268009768F4 /* Sources */,
+				B96445A0230B6268009768F4 /* Frameworks */,
+				B96445A1230B6268009768F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96445A5230B6268009768F4 /* PBXTargetDependency */,
+			);
+			name = "Project HarpTests";
+			productName = "Project HarpTests";
+			productReference = B96445A3230B6268009768F4 /* Project HarpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B96445AD230B6268009768F4 /* Project HarpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96445BD230B6268009768F4 /* Build configuration list for PBXNativeTarget "Project HarpUITests" */;
+			buildPhases = (
+				B96445AA230B6268009768F4 /* Sources */,
+				B96445AB230B6268009768F4 /* Frameworks */,
+				B96445AC230B6268009768F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96445B0230B6268009768F4 /* PBXTargetDependency */,
+			);
+			name = "Project HarpUITests";
+			productName = "Project HarpUITests";
+			productReference = B96445AE230B6268009768F4 /* Project HarpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9644584230B6262009768F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Devante McFarlane";
+				TargetAttributes = {
+					B964458B230B6262009768F4 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					B96445A2230B6268009768F4 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = B964458B230B6262009768F4;
+					};
+					B96445AD230B6268009768F4 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = B964458B230B6262009768F4;
+					};
+				};
+			};
+			buildConfigurationList = B9644587230B6262009768F4 /* Build configuration list for PBXProject "Project Harp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9644583230B6262009768F4;
+			productRefGroup = B964458D230B6262009768F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B964458B230B6262009768F4 /* Project Harp */,
+				B96445A2230B6268009768F4 /* Project HarpTests */,
+				B96445AD230B6268009768F4 /* Project HarpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B964458A230B6262009768F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B964459D230B6268009768F4 /* LaunchScreen.storyboard in Resources */,
+				B964459A230B6268009768F4 /* Assets.xcassets in Resources */,
+				B9644595230B6262009768F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96445A1230B6268009768F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96445AC230B6268009768F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9644588230B6262009768F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9644592230B6262009768F4 /* ViewController.swift in Sources */,
+				B9644590230B6262009768F4 /* AppDelegate.swift in Sources */,
+				B9644598230B6262009768F4 /* Project_Harp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B964459F230B6268009768F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96445A8230B6268009768F4 /* Project_HarpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96445AA230B6268009768F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96445B3230B6268009768F4 /* Project_HarpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B96445A5230B6268009768F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B964458B230B6262009768F4 /* Project Harp */;
+			targetProxy = B96445A4230B6268009768F4 /* PBXContainerItemProxy */;
+		};
+		B96445B0230B6268009768F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B964458B230B6262009768F4 /* Project Harp */;
+			targetProxy = B96445AF230B6268009768F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9644593230B6262009768F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9644594230B6262009768F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B964459B230B6268009768F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B964459C230B6268009768F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B96445B5230B6268009768F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B96445B6230B6268009768F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B96445B8230B6268009768F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H93AZ3R8C4;
+				INFOPLIST_FILE = "Project Harp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devantemcfarlane.Project-Harp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B96445B9230B6268009768F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H93AZ3R8C4;
+				INFOPLIST_FILE = "Project Harp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devantemcfarlane.Project-Harp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B96445BB230B6268009768F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H93AZ3R8C4;
+				INFOPLIST_FILE = "Project HarpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devantemcfarlane.Project-HarpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project Harp.app/Project Harp";
+			};
+			name = Debug;
+		};
+		B96445BC230B6268009768F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H93AZ3R8C4;
+				INFOPLIST_FILE = "Project HarpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devantemcfarlane.Project-HarpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project Harp.app/Project Harp";
+			};
+			name = Release;
+		};
+		B96445BE230B6268009768F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H93AZ3R8C4;
+				INFOPLIST_FILE = "Project HarpUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devantemcfarlane.Project-HarpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project Harp";
+			};
+			name = Debug;
+		};
+		B96445BF230B6268009768F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H93AZ3R8C4;
+				INFOPLIST_FILE = "Project HarpUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devantemcfarlane.Project-HarpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project Harp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9644587230B6262009768F4 /* Build configuration list for PBXProject "Project Harp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96445B5230B6268009768F4 /* Debug */,
+				B96445B6230B6268009768F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96445B7230B6268009768F4 /* Build configuration list for PBXNativeTarget "Project Harp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96445B8230B6268009768F4 /* Debug */,
+				B96445B9230B6268009768F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96445BA230B6268009768F4 /* Build configuration list for PBXNativeTarget "Project HarpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96445BB230B6268009768F4 /* Debug */,
+				B96445BC230B6268009768F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96445BD230B6268009768F4 /* Build configuration list for PBXNativeTarget "Project HarpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96445BE230B6268009768F4 /* Debug */,
+				B96445BF230B6268009768F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B9644596230B6262009768F4 /* Project_Harp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B9644597230B6262009768F4 /* Project_Harp.xcdatamodel */,
+			);
+			currentVersion = B9644597230B6262009768F4 /* Project_Harp.xcdatamodel */;
+			path = Project_Harp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B9644584230B6262009768F4 /* Project object */;
+}
